@@ -98,15 +98,24 @@ html {
     justify-content: space-between;
     padding: 15px 30px;
 
+    .organic-logo{
+        width: 121px;
+        height: 40px;
+        @media(max-width:768px){
+            width: 90px;
+        }
+    }
     .organic-logo-wrapper {
         display: inline-block;
-        width: auto;
+        width: 121px;
         height: 40px;
-
+        @media(max-width:768px){
+            width: 90px;
+        }
         .organic-img {
             .cmp-img();
+            object-fit: unset;
         }
-
     }
 
     .organic-navbar-content {
@@ -230,11 +239,13 @@ html {
             display: block;
             position: relative;
             z-index: 110;
+            color: #000000 !important;
         }
         .closeIcon{
             display: none;
             position: relative;
             z-index: 110;
+            color: #000000 !important;
         }
     }
 }
@@ -263,7 +274,7 @@ html {
                 padding-left: 13%;
             }
             @media (max-width: 576px) {
-                padding: 5% 25%;            }
+                padding: 15% 17% 5% 17%;            }
 
             .ob-content {
                 padding-bottom: 40px;
@@ -354,10 +365,16 @@ html {
 
     .arrow-left {
         left: 30px;
+        @media (max-width: 576px) {
+            left: 15px;
+        }
     }
 
     .arrow-right {
         right: 30px;
+        @media (max-width: 576px) {
+            right: 15px;
+        }
     }
 }
 
@@ -1526,7 +1543,7 @@ html {
             @media (max-width: 768px) {
                 border-radius: 10px;
                 width: auto;
-                padding: 10px;
+                padding: 15px;
                 margin-right: 0px;
                 height: 65px;
             }

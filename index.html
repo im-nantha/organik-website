@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organik</title>
+    <meta name="description" content="Organik is one of the famous website for buying and selling fruits online" />
+    <meta name="keywords" content="organik, organix, organik website" />
+    <meta property="og:title" content="Plantyx">
+    <meta property="og:description" content="planty is one of the famous website for buying and selling plants online">
+    <meta property="og:url" content="https://www.github/organik.io">
+    <meta property="og:image" content="./assets/organik-logo.svg">
+    <link rel="stylesheet/less" type="text/css" href="./styles/styles.less" />
+    <link href="./assets/organik-fav-icon.png" rel="shortcut icon" type="image/x-icon">
+    <!-- less library included -->
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <!-- jquery library included -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- slick library included -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Icon Style for hamburger has been linked below -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fonts api included-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CYellowtail:regular%7CRoboto:regular,500,700,900"
+        media="all">
+</head>
+
+<body>
+    <header class="header">
+        <div class="organic-header">
+            <div class="organic-logo">
+                <a href="#" class="organic-logo-wrapper">
+                    <img class="organic-img" src="./assets/organik-logo.svg" alt="logologo">
+                </a>
+            </div>
+            <nav class="organic-navbar">
+                <ul class="organic-navbar-content">
+                    <li><a href="#" class="organic-nav-wrap">Home</a></li>
+                    <li><a href="#about-organic" class="organic-nav-wrap">About us</a></li>
+                    <li><a href="#products" class="organic-nav-wrap">Products</a></li>
+                    <li><a href="#team" class="organic-nav-wrap">Teams</a></li>
+                    <li><a href="#blogs" class="organic-nav-wrap">Blogs</a></li>
+                    <li><a href="#contact" class="organic-nav-wrap">Contact</a></li>
+                </ul>
+                <button class="hamburger">
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons">close</i>
+                </button>
+            </nav>
+            <div class="organic-list-wrapper">
+                <div class="organic-items">
+                    <a href="#" class="search-icon">
+                        <div class="search-icon-wrapper">
+                            <img src="./assets/search-icon.png" alt="logologo">
+                        </div>
+                    </a>
+                </div>
+                <div class="organic-items">
+                    <a href="#" class="cart-wrap">
+                        <div class="cart-icon-wrapper">
+                            <img src="./assets/cart-logo.svg" alt="logoimg">
+                        </div>
+                        <p>Cart 5</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="organic-banner">
+            <div class="og-banner-items" style="background-image: url(./assets/organic-banner.jpg);">
+                <div class="ob-content-wrapper">
+                    <div class="ob-content">
+                        <h3 class="ob-title">100% Natural Food</h3>
+                        <h1 class="ob-main-title">Choose the best healthier way of life</h1>
+                        <button class="ob-button explore-more">
+                            <p>Explore Now</p>
+                            <img src="./assets/next-button.svg" alt="logobutton">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="og-banner-items" style="background-image: url(./assets/banner-4.jpg);">
+                <div class="ob-content-wrapper">
+                    <div class="ob-content">
+                        <h3 class="ob-title">100% Natural Food</h3>
+                        <h1 class="ob-main-title">Choose the best healthier way of life</h1>
+                        <button class="ob-button explore-more">
+                            <p>Explore Now</p>
+                            <img src="./assets/next-button.svg" alt="logobutton">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="og-banner-items" style="background-image: url(./assets/banner-3.jpg);">
+                <div class="ob-content-wrapper">
+                    <div class="ob-content">
+                        <h3 class="ob-title">100% Natural Food</h3>
+                        <h1 class="ob-main-title">Choose the best healthier way of life</h1>
+                        <button class="ob-button explore-more">
+                            <p>Explore Now</p>
+                            <img src="./assets/next-button.svg" alt="logobutton">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="organic-cards">
+            <div class="oc-container">
+                <div class="oc-cards oc-card-left" style="background-image: url(./assets/ani-image-left.jpg);">
+                    <h3 class="oc-subtitle">Natural!!</h3>
+                    <h2 class="oc-title">Get Garden Fresh Fruits</h2>
+                </div>
+                <div class="oc-cards oc-card-right" style="background-image: url(./assets/ani-image-right.jpg);">
+                    <h3 class="oc-subtitle">Offer!!</h3>
+                    <h2 class="oc-title">Get 10% off on Vegetables</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-organics" id="about-organic">
+            <div class="ao-wrapper">
+                <div class="ao-items">
+                    <div class="ao-img-wrapper">
+                        <img class="ao-img" src="./assets/about-us-banner.png" alt="logobanner">
+                    </div>
+                </div>
+                <div class="ao-items">
+                    <h3 class="ao-subtitle">About Us</h3>
+                    <h1 class="ao-title">We Believe In Organic Foods For Strong Health</h1>
+                    <p class="ao-text">Welcome to the world of natural and organic. Here you can discover the bounty of
+                        nature. We have grown on the principles of health, and care. We aim to give our customers a
+                        healthy chemical-free meal for perfect nutrition.</p>
+                    <div class="ao-paper-cards">
+                        <div class="ao-paper-items">
+                            <div class="paper-icon-wrapper">
+                                <img src="./assets/au-pot-logo.svg" alt="logologo">
+                            </div>
+                            <div class="paper-contents">
+                                <h3 class="ao-paper-title">Organic Foods Only</h3>
+                                <p class="ao-paper-text">The Product that you ordered will be verified that we have or
+                                    not if have we will start to move on with the next step.</p>
+                            </div>
+                        </div>
+                        <div class="ao-paper-items">
+                            <div class="paper-icon-wrapper">
+                                <img src="./assets/au-star-logo.svg" alt="logologo">
+                            </div>
+                            <div class="paper-contents">
+                                <h3 class="ao-paper-title">Quality Standards</h3>
+                                <p class="ao-paper-text">Once your product is packed it will be delivered to your nearby
+                                    locality you can directly visit the to buy the product.</p>
+                            </div>
+                        </div>
+                        <button class="ao-button explore-more">
+                            <p>Shop Now</p>
+                            <img src="./assets/next-button.svg" alt="logobutton">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="organic-features">
+            <div class="organic-features-container">
+                <div class="of-boxes">
+                    <div class="of-icon-wrapper"><img src="./assets/i-1.svg" alt="logoicons"></div>
+                    <h3 class="of-title">Return Policy</h3>
+                    <p class="of-text">If the product having any issues you can return the product.</p>
+                </div>
+                <div class="of-boxes">
+                    <div class="of-icon-wrapper"><img src="./assets/i-2.svg" alt="logoicons"></div>
+                    <h3 class="of-title">100% Fresh</h3>
+                    <p class="of-text">Fully organic and fresh products are delivered at door step.</p>
+                </div>
+                <div class="of-boxes">
+                    <div class="of-icon-wrapper"><img src="./assets/i-3.svg" alt="logoicons"></div>
+                    <h3 class="of-title">Support 24/7</h3>
+                    <p class="of-text">Our support team is available for take care the customers.</p>
+                </div>
+                <div class="of-boxes">
+                    <div class="of-icon-wrapper"><img src="./assets/i-4.svg" alt="logoicons"></div>
+                    <h3 class="of-title">Secured Payment</h3>
+                    <p class="of-text">Fully secured payment methods are used for buying product.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="organic-gallery">
+            <div class="organic-titles">
+                <h3 class="organic-gallery-subtitle">Our Green Oasis</h3>
+                <h1 class="organic-gallery-title">Embracing Nature's Beauty with Every Plant</h1>
+            </div>
+            <div class="organic-gallery-wrapper">
+                <a href="#" class="og-boxes og-first">
+                    <div class="og-static">
+                        <img class="og-img" src="./assets/gallery-1.jpg" alt="logoimg">
+                    </div>
+                    <div class="og-dynamic">
+                        <img class="og-img" src="./assets/gallery-hover-1.jpg" alt="logoimg">
+                    </div>
+                </a>
+                <div class="og-second">
+                    <a href="#" class="og-boxes">
+                        <div class="og-static">
+                            <img class="og-img" src="./assets/gallery-2.jpg" alt="logoimg">
+                        </div>
+                        <div class="og-dynamic">
+                            <img class="og-img" src="./assets/gallery-hover-2.jpg" alt="logoimg">
+                        </div>
+                    </a>
+                    <a href="#" class="og-boxes">
+                        <div class="og-static">
+                            <img class="og-img" src="./assets/gallery-3.jpg" alt="logoimg">
+                        </div>
+                        <div class="og-dynamic">
+                            <img class="og-img" src="./assets/gallery-hover-3.jpg" alt="logoimg">
+                        </div>
+                    </a>
+                </div>
+                <a href="#" class="og-boxes og-last">
+                    <div class="og-static">
+                        <img class="og-img" src="./assets/gallery-4.jpg" alt="logoimg">
+                    </div>
+                    <div class="og-dynamic">
+                        <img class="og-img" src="./assets/gallery-hover-4.jpg" alt="logoimg">
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="organic-products" id="products">
+            <div class="op-title-wrapper">
+                <h3 class="op-subtitle">Categories</h3>
+                <h1 class="op-title">Our Products</h1>
+            </div>
+            <div class="organic-product-container">
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Vegetable</p>
+                    </div>
+                    <img src="./assets/products/our-product-1.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Vegan Red Tomato</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 14.00</div>
+                                <div class="op-actual-price">$ 9.37</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Fruits</p>
+                    </div>
+                    <img src="./assets/products/our-product-2.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Organic Almonds</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 21.00</div>
+                                <div class="op-actual-price">$ 18.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Millets</p>
+                    </div>
+                    <img src="./assets/products/our-product-3.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Fresh Corn</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 21.23</div>
+                                <div class="op-actual-price">$ 18.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Vegetable</p>
+                    </div>
+                    <img src="./assets/products/our-product-4.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Dried Pistachio</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 61.00</div>
+                                <div class="op-actual-price">$ 48.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Millets</p>
+                    </div>
+                    <img src="./assets/products/our-product-5.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Calabrese Broccoli</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 25.00</div>
+                                <div class="op-actual-price">$ 21.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Millets</p>
+                    </div>
+                    <img src="./assets/products/our-product-6.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Brown Hazelnut</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Millets</p>
+                    </div>
+                    <img src="./assets/products/our-product-7.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Brown Hazelnut</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Millets</p>
+                    </div>
+                    <img src="./assets/products/our-product-8.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Brown Hazelnut</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Fruits</p>
+                    </div>
+                    <img src="./assets/products/product-9.jpg" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Apple</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Fruits</p>
+                    </div>
+                    <img src="./assets/products/product-10.jpg" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Strawberry</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Fruits</p>
+                    </div>
+                    <img src="./assets/products/product-11.jpg" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Orange</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="organic-product-list">
+                    <div class="op-categ-wrapper">
+                        <p class="op-category">Fruits</p>
+                    </div>
+                    <img src="./assets/products/product-12.png" alt="logologo" class="op-list-image">
+                    <div class="op-text-container">
+                        <p class="organic-product-name">Pine Apple</p>
+                        <div class="op-price-wrapper">
+                            <div class="op-price-content">
+                                <div class="op-strike-price">$ 43.00</div>
+                                <div class="op-actual-price">$ 34.00</div>
+                            </div>
+                            <div class="op-rating">
+                                <img class="op-rating" src="./assets/star.svg" alt="logologo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="op-button" id="load-more-button">
+                <p>Load More</p>
+                <img src="./assets/next-button.svg" alt="logobutton">
+            </button>
+        </section>
+
+        <section class="organic-experts" id="team">
+            <div class="organic-experts-wrapper">
+                <div class="oe-title-contents">
+                    <h3 class="oe-subtitle">The Team</h3>
+                    <h1 class="oe-title">Our Organic Experts</h1>
+                    <p class="oe-text">We have grown on the principles of health, ecology, and care. We aim to give our
+                        customers a healthy chemical-free meal for perfect nutrition.</p>
+                </div>
+                <div class="oe-frame-wrapper">
+                    <div class="oe-frames">
+                        <div class="oe-frame-header">
+                            <img class="oe-img" src="./assets/oe-1.jpg" alt="logoicons">
+                        </div>
+                        <div class="oe-frame-footer">
+                            <h1 class="oe-name">Shane Watson</h1>
+                            <div class="oe-frame-text">
+                                <h3 class="oe-desc">Farmer</h3>
+                                <div class="oe-frame-icon-wrapper">
+                                    <div class="oe-frame-icons"><a href="https://www.facebook.com/" target="_blank"><img
+                                                class="oe-icon-wrap" src="./assets/fb-01.svg" alt="logoicons"></a></div>
+                                    <div class="oe-frame-icons"><a href="https://x.com/" target="_blank"><img
+                                                class="oe-icon-wrap" src="./assets/x-02.svg" alt="logoicons"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oe-frames">
+                        <div class="oe-frame-header">
+                            <img class="oe-img" src="./assets/oe-2.jpg" alt="logoicons">
+                        </div>
+                        <div class="oe-frame-footer">
+                            <h1 class="oe-name">Maria Thomas</h1>
+                            <div class="oe-frame-text">
+                                <h3 class="oe-desc">Maketing</h3>
+                                <div class="oe-frame-icon-wrapper">
+                                    <div class="oe-frame-icons"><a href="https://www.facebook.com/" target="_blank"><img
+                                                class="oe-icon-wrap" src="./assets/fb-01.svg" alt="logoicons"></a></div>
+                                    <div class="oe-frame-icons"><a href="https://www.instagram.com/"
+                                            target="_blank"><img class="oe-icon-wrap" src="./assets/insta-03.svg"
+                                                alt="logoicons"></a></div>
+                                    <div class="oe-frame-icons"><a href="https://x.com/" target="_blank"><img
+                                                class="oe-icon-wrap" src="./assets/x-02.svg" alt="logoicons"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oe-frames">
+                        <div class="oe-frame-header">
+                            <img class="oe-img" src="./assets/oe-3.jpg" alt="logoicons">
+                        </div>
+                        <div class="oe-frame-footer">
+                            <h1 class="oe-name">Angeline flora</h1>
+                            <div class="oe-frame-text">
+                                <h3 class="oe-desc">Financiar</h3>
+                                <div class="oe-frame-icon-wrapper">
+                                    <div class="oe-frame-icons"><a href="https://www.facebook.com/" target="_blank"><img
+                                                class="oe-icon-wrap" src="./assets/fb-01.svg" alt="logoicons"></a></div>
+                                    <div class="oe-frame-icons"><a href="https://x.com/" target="_blank"><img
+                                                class="oe-icon-wrap" src="./assets/x-02.svg" alt="logoicons"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="organic-blogs" id="blogs">
+            <div class="organic-blog-img-wrapper">
+                <img class="ob-img" src="./assets/blog-banner.jpg" alt="logobanner">
+            </div>
+            <div class="organic-blog-content-wrapper">
+                <div class="ob-main-content">
+                    <p class="ob-text ob-date-text">Posted On: <span>June 14, 2024</span></p>
+                    <h1 class="ob-title">Benefits Of Organic Green Tea</h1>
+                    <p class="ob-text">Podcasting on low-hanging fruit to identify a ballpark value added activity to
+                        beta test override matrix economically the digital. Efficiently on low-hanging fruit to identify
+                        a ballpark value added activity to beta test matrix economically override the digital.
+                        Objectively on low-hanging fruit to identify a ballpark value added activity to beta matrix
+                        economically.</p>
+                </div>
+                <div class="ob-sub-content">
+                    <p class="ob-text">Uniquely matrix economically sound value through cooperative technology.
+                        Competently parallel task fully researched data and enterprise process improvements.
+                        Collaboratively expedite quality manufactured products via client-focused results quickly
+                        communicate enabled technology and turnkey leadership skills. Uniquely enable accurate supply
+                        chains rather than friction technology.</p>
+                    <h1 class="ob-title">Organic product for all peoples</h1>
+                    <p class="ob-text">Appropriately empower dynamic leadership skills after business portals. Globally
+                        my coordinate interactive supply chains with distinctive quality vectors global sources
+                        services. Uniquely matrix economically sound value through cooperative technology. Competently
+                        parallel task fully researched data and enterprise process improvements.</p>
+                    <ul class="ob-list">
+                        <li>
+                            <p class="ob-text">Dynamically target high-payoff intellectual capital for customized</p>
+                        </li>
+                        <li>
+                            <p class="ob-text">Interactively procrastinate high-payoff content</p>
+                        </li>
+                        <li>
+                            <p class="ob-text">Credibly reinter mediate backend ideas for cross-platform models</p>
+                        </li>
+                    </ul>
+                    <div class="ob-slogen-text-wrapper">
+                        <h1 class="ob-title ob-slogen-text">“The first rule of any organic used in a business is that
+                            nature applied to an efficient operation will magnify the efficiency. The second is that
+                            organic applied to an inefficient operation will magnify the health.”</h1>
+                    </div>
+                    <h1 class="ob-title">Make perfect organic product with us</h1>
+                    <p class="ob-text">Collaboratively administrate empowered markets via plug-and-play networks.
+                        Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize
+                        customer directed convergence without revolutionary ROI.</p>
+                    <ol class="ob-list">
+                        <li>
+                            <p class="ob-text">It brings the right people together with all the right information and
+                                tools to get work done</p>
+                        </li>
+                        <li>
+                            <p class="ob-text">We provide operational efficiency, data security, and flexible scale</p>
+                        </li>
+                        <li>
+                            <p class="ob-text">Your best work, together in one package that works seamlessly from your
+                                computer</p>
+                        </li>
+                        <li>
+                            <p class="ob-text">Delivers the tools you need to save time Improve field performance always
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="organic-form" id="contact">
+            <div class="organic-form-wrapper">
+                <div class="organic-form-content">
+                    <h1 class="form-title">Subscribe Our Newsletter</h1>
+                </div>
+                <div class="organic-form-content">
+                    <input class="organic-form-input" type="text" id="email" name="email"
+                        placeholder="Enter Your Email Address" required maxlength="25">
+                    <input type="submit" value="Subscribe" class="subscribe-button">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="organic-footer">
+            <div class="organic-footer-container">
+                <div class="footer-item-wrapper">
+                    <h1 class="footer-title">Contact Us</h1>
+                    <p class="footer-text"><b>Email</b></p>
+                    <a class="footer-link" href="mailto:needhelp@organick.com"
+                        class="footer-contact-link">needhelp@organick.com</a>
+                    <p class="footer-text"><b>Phone</b></p>
+                    <a class="footer-link" href="tel:1234567890" class="footer-contact-link">1234567890</a>
+                    <p class="footer-text"><b>Address</b></p>
+                    <p class="footer-text">88 Road, Brooklyn Street, USA</p>
+                </div>
+                <div class="footer-item-wrapper">
+                    <img class="footer-logo" src="./assets/organik-logo.svg" alt="logo">
+                    <p class="footer-text">We are a popular and farming company aspiring to be a leader in the Organic
+                        food industry.</p>
+                    <div class="footer-icon-wrapper">
+                        <a class="footer-icon-redirect" href="https://www.facebook.com/" target="_blank"><img
+                                src="./assets/fb-01.svg" alt="logo" class="footer-icons"></a>
+                        <a class="footer-icon-redirect" href="https://www.x.com/" target="_blank"><img
+                                src="./assets/x-02.svg" alt="logo" class="footer-icons"></a>
+                        <a class="footer-icon-redirect" href="https://www.instagram.com/" target="_blank"><img
+                                src="./assets/insta-03.svg" alt="logo" class="footer-icons"></a>
+                        <a class="footer-icon-redirect" href="https://in.pinterest.com/" target="_blank"><img
+                                src="./assets/pinterest-04.svg" alt="logo" class="footer-icons"></a>
+                    </div>
+                </div>
+                <div class="footer-item-wrapper">
+                    <h1 class="footer-title">Utility Pages</h1>
+                    <a class="footer-link" href="https://organick-template.webflow.io/style-guide" target="_blank">Style
+                        Guide</a>
+                    <a class="footer-link" href="https://organick-template.webflow.io/401" target="_blank">Protected</a>
+                    <a class="footer-link" href="https://organick-template.webflow.io/404" target="_blank">Page Not
+                        Found</a>
+                    <a class="footer-link" href="https://organick-template.webflow.io/changelog"
+                        target="_blank">Changelog</a>
+                    <a class="footer-link" href="https://organick-template.webflow.io/licenses"
+                        target="_blank">Licenses</a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p class="footer-text">Copyright © Organick | Designed by <a class="footer-link"
+                        href="https://www.victorflow.com/" target="_blank">VictorFlow</a> - Powered by <a
+                        class="footer-link" href="https://www.victorflow.com/" target="_blank">Webflow</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
